@@ -28,7 +28,7 @@ client:
 - access type: confidential
 - standard flow: enabled
 - direct access grants: disabled
-- PKCE - Proof Key for Code: S256
+- (Optional) PKCE - Proof Key for Code: S256
 - redirect uri: http://localhost:8083/callback
 
 requests:
@@ -48,3 +48,11 @@ curl --request POST 'http://localhost:8080/auth/realms/app/protocol/openid-conne
 --data-urlencode 'redirect_uri=http://localhost:8083/callback' \
 --data-urlencode 'scope=openid profile'
 ```
+
+## Resource Server
+
+Server will start by default on http://localhost:8000
+
+### Endpoints
+- `/users/status`
+- `/token`
