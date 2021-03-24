@@ -28,7 +28,7 @@ client:
 - access type: confidential
 - standard flow: enabled
 - direct access grants: disabled
-- (Optional) PKCE - Proof Key for Code: S256
+- (Optional) `PKCE` - Proof Key for Code: S256
 - redirect uri: http://localhost:8083/callback
 
 requests:
