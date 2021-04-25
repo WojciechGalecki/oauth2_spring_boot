@@ -53,6 +53,10 @@ curl --request POST 'http://localhost:8080/auth/realms/app/protocol/openid-conne
 
 - port: `8000`
 
+## Eureka Discovery Service
+
+- port: `8100`
+
 ## Resource Server
 
 Server will start by default on http://localhost:8001
